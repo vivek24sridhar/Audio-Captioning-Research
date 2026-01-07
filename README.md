@@ -1,11 +1,11 @@
-Hierarchical Multi-Level Audio Caption Generation
-1) **Overview**
+**Hierarchical Multi-Level Audio Caption Generation:**
+1) **Overview**:
 
 This project converts audio signals into meaningful text descriptions.
 Instead of showing only sound labels, the system generates human-readable sentences explaining what is happening in the audio, including environmental sounds and human speech.
 The system works in multiple levels (frame, segment, and global) and uses pre-trained deep learning models to understand audio effectively.
 
-2) **Key Features**
+2) **Key Features**:
 
 Detects environmental sounds (animals, vehicles, rain, music, etc.),
 Identifies dominant sound events using hierarchical processing,
@@ -14,7 +14,7 @@ Generates clear natural-language captions,
 Supports both audio upload and live microphone recording,
 Provides visual analysis using waveform, spectrogram, and graphs
 
-3) **Tools & Technologies Used**
+3) **Tools & Technologies Used**:
 
 Python,
 TensorFlow & TensorFlow Hub,
@@ -24,7 +24,7 @@ Librosa – Audio processing,
 Google Colab – Development and testing environment,
 Matplotlib – Visualization
 
-4) **System Workflow**
+4) **System Workflow**:
 
 Audio is either uploaded or recorded live using a microphone.
 The audio is resampled and converted into a waveform.
@@ -35,7 +35,7 @@ If human speech is detected, Whisper converts speech into English text.
 For non-speech sounds, predefined sentences are used.
 The final caption describes what is happening in the audio.
 
-5)  **Code Structure Explanation**
+5)  **Code Structure Explanation**:
    
 **step 1:** Library Installation
 Installs all required Python libraries for audio processing, sound detection, and speech recognition.
@@ -76,25 +76,27 @@ Final caption combines all detected information.
 
 
 
-5) **Applications**
+6) **Applications**:
 Assistive technology for deaf or hard-of-hearing users
 Smart home and IoT systems
 Audio surveillance and security
 Environmental and wildlife monitoring
 Human-computer interaction
 
-6) **Project Status**
+7) **Project Status**:
 In Progress – Further optimization and real-time hardware deployment are planned.
 
-7) **Future Enhancements**
+8) **Future Enhancements**:
 Real-time hardware implementation using Raspberry Pi
 Multi-language caption support
 Mobile and embedded device integration
 Improved accuracy using fine-tuned models
 
-8) **Author**
-S.Vivek
-Mohanachandhiran P
-Rhuthresh S
-Hierarchical Multi-Level Audio Caption Generation
+ 
+ **Author**:
+ S.Vivek, 
+ Mohanachandhiran P, 
+ Rhuthresh S, 
+ S.Radhika
+ Hierarchical Multi-Level Audio Caption Generation
 (Research & Implementation)
